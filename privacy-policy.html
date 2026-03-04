@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Screenshot for Claude</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 48px 24px 80px;
+    }
+
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #DA7756;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: #1a1a1a;
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #6b6b6b;
+      margin-bottom: 40px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #ebebeb;
+      margin: 36px 0;
+    }
+
+    h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a1a1a;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #3a3a3a;
+      margin-bottom: 16px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      font-size: 15px;
+      color: #3a3a3a;
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .section {
+      margin-bottom: 32px;
+    }
+
+    a {
+      color: #DA7756;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 56px;
+      font-size: 13px;
+      color: #9a9a9a;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <span class="badge">Screenshot for Claude</span>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Last updated: March 2026</p>
+
+    <hr class="divider">
+
+    <div class="section">
+      <h2>No data is collected</h2>
+      <p>Screenshot for Claude does not collect, store, or transmit any personal data. No account is required. No identifying information is ever recorded.</p>
+    </div>
+
+    <div class="section">
+      <h2>Screenshots are processed in memory only</h2>
+      <p>When you capture a tab, the screenshot exists as a temporary in-memory image for the duration of the transfer — typically a few seconds. It is never written to disk, never stored in the extension's storage, and is discarded as soon as it has been delivered to the Claude.ai input.</p>
+    </div>
+
+    <div class="section">
+      <h2>Data goes directly to Claude.ai — nowhere else</h2>
+      <p>The screenshot is injected directly into your Claude.ai browser tab using standard browser APIs. It travels through your own browser session, the same way you would paste an image manually. The extension does not proxy, relay, or intercept any of this data.</p>
+    </div>
+
+    <div class="section">
+      <h2>No analytics, no tracking, no third-party services</h2>
+      <p>The extension contains no analytics libraries, crash reporters, ad networks, or tracking pixels. No third party ever receives information about your usage.</p>
+    </div>
+
+    <div class="section">
+      <h2>Remote config file</h2>
+      <p>The extension periodically fetches a small JSON file from GitHub Pages to stay up to date with Claude.ai's interface. This file contains only:</p>
+      <ul>
+        <li>CSS selectors used to locate Claude.ai's file input</li>
+        <li>A flag to temporarily disable the extension if needed</li>
+        <li>A minimum version requirement</li>
+        <li>The URL to open for new Claude.ai conversations</li>
+      </ul>
+      <p>No user data is included in this request. The request carries no cookies, no identifiers, and no payload — it is a plain GET to a static file. The response is parsed as data only; no code is executed from it.</p>
+    </div>
+
+    <div class="section">
+      <h2>Permissions used</h2>
+      <p>The extension requests the following Chrome permissions, and only uses them for the stated purpose:</p>
+      <ul>
+        <li><strong>activeTab</strong> — to capture a screenshot of the tab you are currently viewing</li>
+        <li><strong>scripting</strong> — to inject the screenshot into the Claude.ai input field</li>
+        <li><strong>tabs</strong> — to identify the active tab and switch to Claude.ai</li>
+        <li><strong>storage</strong> — to cache the remote config so it is not fetched on every use</li>
+      </ul>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Questions about this policy can be sent to <a href="mailto:[your email address]">[your email address]</a>.</p>
+    </div>
+
+    <p class="footer">This policy applies to the Screenshot for Claude Chrome extension. Claude.ai is a product of Anthropic; this extension is an independent tool and is not affiliated with Anthropic.</p>
+
+  </div>
+</body>
+</html>
