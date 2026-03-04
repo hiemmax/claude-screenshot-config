@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "enabled": true,
   "selectors": {
-    "fileInput": "input[type='file']",
+    "fileInput": "input[data-testid='file-upload']",
     "textInput": "div[contenteditable='true'].ProseMirror",
     "attachmentConfirmed": "[class*='attachment']"
   },
