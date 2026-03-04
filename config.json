@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "selectors": {
+    "fileInput": "input[type='file'][accept*='image']",
+    "textInput": "div[contenteditable='true'].ProseMirror",
+    "attachmentConfirmed": "[class*='attachment']"
+  },
+  "claudeUrl": "https://claude.ai/new",
+  "minimumExtensionVersion": "1.0.0",
+  "updateMessage": "",
+  "disabledMessage": ""
+}
